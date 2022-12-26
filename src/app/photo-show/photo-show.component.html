@@ -1,0 +1,12 @@
+<div class="d-flex justify-content-center mt-5">
+  <div class="card text-center col-sm-6">
+    <div class="card-header">
+      <button class="btn btn-success" (click)="onClick()">
+        Fetch New Image
+      </button>
+    </div>
+    <div>
+      <img *ngIf="imageUrl" [src]="imageUrl" class="rounded" />
+    </div>
+  </div>
+</div>
